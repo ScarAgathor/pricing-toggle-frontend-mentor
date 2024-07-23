@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing component with toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Our Pricing</h1>
+
+        <div class="toggle__container">
+            <p class="toggle__text">Annually</p>
+
+            <label class="toggle" for="check" tabindex="1">
+                <input type="checkbox" id="check">
+                <span class="toggle__slider"></span>
+            </label>
+            
+
+            <p class="toggle__text">Monthly</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="offer offer--white">
+            <p class="offer__title offer__title--dark">Basic</p>
+            <p class="offer__value offer__value--dark">$<span>19.99</span></p>
+            <div class="offer__perKs offer__perks--dark">
+                <p class="perk perk--dark">500 GB Storage</p>
+                <p class="perk perk--dark">2 Users Allowed</p>
+                <p class="perk perk--dark">Send up to 3 GB</p>
+            </div>
+            <button class="offer__button offer__button--purple">LEARN MORE</button>
+        </section>
+
+        <section class="offer offer--purple">
+            <p class="offer__title offer__title--white">Professional</p>
+            <p class="offer__value offer__value--white">$<span>24.99</span></p>
+            <div class="offer__perKs offer__perks--white">
+                <p class="perk perk--white">1 TB Storage</p>
+                <p class="perk perk--white">5 Users Allowed</p>
+                <p class="perk perk--white">Send up to 10 GB</p>
+            </div>
+            <button class="offer__button offer__button--white">LEARN MORE</button>
+        </section>
+
+        <section class="offer offer--white">
+            <p class="offer__title offer__title--dark">Master</p>
+            <p class="offer__value offer__value--dark">$<span>39.99</span></p>
+            <div class="offer__perKs offer__perks--dark">
+                <p class="perk perk--dark">2 TB Storage</p>
+                <p class="perk perk--dark">10 Users Allowed</p>
+                <p class="perk perk--dark">Send up to 20 GB</p>
+            </div>
+            <button class="offer__button offer__button--purple">LEARN MORE</button>
+        </section>
+    </main>
+
+</body>
+</html>
